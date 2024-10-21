@@ -1,0 +1,54 @@
+/* Styles */
+body {
+    font-family: var(--main-font);
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: var(--container-bg-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+p {
+    font-size: 22px; /* Increased font size */
+    color: var(--subtext-color);
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px; /* Increased padding for buttons */
+    font-size: 18px; /* Increased font size */
+    color: var(--counter-text-color);
+    background-color: var(--button-color);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--button-hover-color);
+}
+
+#view-counter {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px; /* Increased font size */
+    color: var(--counter-text-color);
+    background-color: var(--counter-bg-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
